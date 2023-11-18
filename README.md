@@ -14,34 +14,38 @@ The Slide-Sync project introduces a Gesture-Controlled Presentation Tool that ut
 - **OpenCV**
 - **cvzone**
   
-## Getting Started
+## Install Dependencies:
+**pip install opencv-python**
+**pip install cvzone**
+
+# Download Presentation Images
+
+# Run the Presentation Tool:
+Execute the Python script to start the presentation tool through Pycharm
+
+## How to Use
+**Slide Navigation:**
+
+- **Swipe left gesture:** Move to the previous slide.
+- **Swipe right gesture:** Move to the next slide.
+
+**Annotation:**
+- **Raise one finger and tap:** Start/stop annotation mode.
+- **While in annotation mode, draw on the slide by moving your index finger.**
+
+**Quit:**
+Press '**q**' to exit the presentation tool.
+
+## Notes
+Adjust the **gestureThreshold** variable in the code to set the threshold for detecting hand gestures.
+Feel free to customize the code to suit your preferences or integrate additional features.
+Enhance your presentations with this innovative Gesture-Controlled Presentation Tool!
+
+
 **Clone the Repository:**
    ```bash
    git clone https://github.com/raosahana13/slide-sync.git
    cd slide-sync
 
-#Install Dependencies:**
-pip install opencv-python
-pip install cvzone
 
-#Download Presentation Images
-
-#Run the Presentation Tool:
-Execute the Python script to start the presentation tool through Pycharm
-
-##How to Use
-Slide Navigation:
-
-Swipe left gesture: Move to the previous slide.
-Swipe right gesture: Move to the next slide.
-
-Annotation:
-Raise one finger and tap: Start/stop annotation mode.
-While in annotation mode, draw on the slide by moving your index finger.
-Quit:Press 'q' to exit the presentation tool.
-
-##Notes
-Adjust the gestureThreshold variable in the code to set the threshold for detecting hand gestures.
-Feel free to customize the code to suit your preferences or integrate additional features.
-Enhance your presentations with this innovative Gesture-Controlled Presentation Tool!
 
